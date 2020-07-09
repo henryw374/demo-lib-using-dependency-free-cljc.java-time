@@ -1,0 +1,7 @@
+{:paths   ["src"]
+ :deps    {cljc.java-time {:local/root "../cljc.java-time"
+                           ;:mvn/version "0.1.12"
+                           }}
+ :aliases {:dev {:extra-paths ["dev" "test"]
+                 :extra-deps 
+                 {org.clojure/clojurescript {:mvn/version "1.10.741"}}}}}
